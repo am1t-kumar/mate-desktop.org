@@ -191,7 +191,7 @@ virtualenv -p $(which python3) nikola
 source nikola/bin/activate
 ```
 
-### STEP 4: Install the following python packages in the virtualenv
+###  STEP 4: Install the following python packages in the virtualenv
 ```
 (nikola) pip install --upgrade pip
 (nikola) pip install --upgrade "Nikola[extras]"
